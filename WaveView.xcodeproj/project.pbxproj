@@ -1,0 +1,661 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		46407A1486B3BC278BA6559C /* libPods-WaveView.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 88098A5258C1A5301ED2E1E0 /* libPods-WaveView.a */; };
+		F6E0120F1DACBADA00A4FB95 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F6E0120E1DACBADA00A4FB95 /* main.m */; };
+		F6E012121DACBADA00A4FB95 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F6E012111DACBADA00A4FB95 /* AppDelegate.m */; };
+		F6E012181DACBADA00A4FB95 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6E012161DACBADA00A4FB95 /* Main.storyboard */; };
+		F6E0121A1DACBADA00A4FB95 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F6E012191DACBADA00A4FB95 /* Assets.xcassets */; };
+		F6E0121D1DACBADA00A4FB95 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6E0121B1DACBADA00A4FB95 /* LaunchScreen.storyboard */; };
+		F6E012281DACBADB00A4FB95 /* WaveViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F6E012271DACBADB00A4FB95 /* WaveViewTests.m */; };
+		F6E012331DACBADB00A4FB95 /* WaveViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F6E012321DACBADB00A4FB95 /* WaveViewUITests.m */; };
+		F6E012421DACBBCD00A4FB95 /* FirstviewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F6E012411DACBBCD00A4FB95 /* FirstviewController.m */; };
+		F6E012451DACBBEC00A4FB95 /* SecondviewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F6E012441DACBBEC00A4FB95 /* SecondviewController.m */; };
+		F6E012481DACBC9F00A4FB95 /* UIColor+Hex.m in Sources */ = {isa = PBXBuildFile; fileRef = F6E012471DACBC9F00A4FB95 /* UIColor+Hex.m */; };
+		F6E012551DACC6C400A4FB95 /* UIView+YZTCView.m in Sources */ = {isa = PBXBuildFile; fileRef = F6E0124E1DACC6C400A4FB95 /* UIView+YZTCView.m */; };
+		F6E012561DACC6C400A4FB95 /* WavaRotorView.m in Sources */ = {isa = PBXBuildFile; fileRef = F6E012501DACC6C400A4FB95 /* WavaRotorView.m */; };
+		F6E012571DACC6C400A4FB95 /* WaveAnimationView.m in Sources */ = {isa = PBXBuildFile; fileRef = F6E012521DACC6C400A4FB95 /* WaveAnimationView.m */; };
+		F6E012581DACC6C400A4FB95 /* WaveView.m in Sources */ = {isa = PBXBuildFile; fileRef = F6E012541DACC6C400A4FB95 /* WaveView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F6E012241DACBADB00A4FB95 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F6E012021DACBADA00A4FB95 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F6E012091DACBADA00A4FB95;
+			remoteInfo = WaveView;
+		};
+		F6E0122F1DACBADB00A4FB95 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F6E012021DACBADA00A4FB95 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F6E012091DACBADA00A4FB95;
+			remoteInfo = WaveView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		88098A5258C1A5301ED2E1E0 /* libPods-WaveView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WaveView.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0B3EC1C7B9F39D70F27075B /* Pods-WaveView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WaveView.release.xcconfig"; path = "Pods/Target Support Files/Pods-WaveView/Pods-WaveView.release.xcconfig"; sourceTree = "<group>"; };
+		D837F883B447AF4A7336C54D /* Pods-WaveView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WaveView.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WaveView/Pods-WaveView.debug.xcconfig"; sourceTree = "<group>"; };
+		F6E0120A1DACBADA00A4FB95 /* WaveView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WaveView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6E0120E1DACBADA00A4FB95 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F6E012101DACBADA00A4FB95 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F6E012111DACBADA00A4FB95 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F6E012171DACBADA00A4FB95 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F6E012191DACBADA00A4FB95 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F6E0121C1DACBADA00A4FB95 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F6E0121E1DACBADA00A4FB95 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F6E012231DACBADB00A4FB95 /* WaveViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WaveViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6E012271DACBADB00A4FB95 /* WaveViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WaveViewTests.m; sourceTree = "<group>"; };
+		F6E012291DACBADB00A4FB95 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F6E0122E1DACBADB00A4FB95 /* WaveViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WaveViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6E012321DACBADB00A4FB95 /* WaveViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WaveViewUITests.m; sourceTree = "<group>"; };
+		F6E012341DACBADB00A4FB95 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F6E012401DACBBCD00A4FB95 /* FirstviewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstviewController.h; sourceTree = "<group>"; };
+		F6E012411DACBBCD00A4FB95 /* FirstviewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstviewController.m; sourceTree = "<group>"; };
+		F6E012431DACBBEC00A4FB95 /* SecondviewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondviewController.h; sourceTree = "<group>"; };
+		F6E012441DACBBEC00A4FB95 /* SecondviewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondviewController.m; sourceTree = "<group>"; };
+		F6E012461DACBC9F00A4FB95 /* UIColor+Hex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Hex.h"; sourceTree = "<group>"; };
+		F6E012471DACBC9F00A4FB95 /* UIColor+Hex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Hex.m"; sourceTree = "<group>"; };
+		F6E012491DACBD2500A4FB95 /* MyPrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyPrefixHeader.pch; sourceTree = "<group>"; };
+		F6E0124C1DACC6C400A4FB95 /* DEFINE.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DEFINE.h; sourceTree = "<group>"; };
+		F6E0124D1DACC6C400A4FB95 /* UIView+YZTCView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+YZTCView.h"; sourceTree = "<group>"; };
+		F6E0124E1DACC6C400A4FB95 /* UIView+YZTCView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+YZTCView.m"; sourceTree = "<group>"; };
+		F6E0124F1DACC6C400A4FB95 /* WavaRotorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WavaRotorView.h; sourceTree = "<group>"; };
+		F6E012501DACC6C400A4FB95 /* WavaRotorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WavaRotorView.m; sourceTree = "<group>"; };
+		F6E012511DACC6C400A4FB95 /* WaveAnimationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WaveAnimationView.h; sourceTree = "<group>"; };
+		F6E012521DACC6C400A4FB95 /* WaveAnimationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WaveAnimationView.m; sourceTree = "<group>"; };
+		F6E012531DACC6C400A4FB95 /* WaveView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WaveView.h; sourceTree = "<group>"; };
+		F6E012541DACC6C400A4FB95 /* WaveView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WaveView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F6E012071DACBADA00A4FB95 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46407A1486B3BC278BA6559C /* libPods-WaveView.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6E012201DACBADB00A4FB95 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6E0122B1DACBADB00A4FB95 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DE7B568DF0376EFDA57EB82E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D837F883B447AF4A7336C54D /* Pods-WaveView.debug.xcconfig */,
+				D0B3EC1C7B9F39D70F27075B /* Pods-WaveView.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E81EB854408D85C89285D595 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				88098A5258C1A5301ED2E1E0 /* libPods-WaveView.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F6E012011DACBADA00A4FB95 = {
+			isa = PBXGroup;
+			children = (
+				F6E0124A1DACC6C400A4FB95 /* WaveViewTools */,
+				F6E0120C1DACBADA00A4FB95 /* WaveView */,
+				F6E012261DACBADB00A4FB95 /* WaveViewTests */,
+				F6E012311DACBADB00A4FB95 /* WaveViewUITests */,
+				F6E0120B1DACBADA00A4FB95 /* Products */,
+				DE7B568DF0376EFDA57EB82E /* Pods */,
+				E81EB854408D85C89285D595 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F6E0120B1DACBADA00A4FB95 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F6E0120A1DACBADA00A4FB95 /* WaveView.app */,
+				F6E012231DACBADB00A4FB95 /* WaveViewTests.xctest */,
+				F6E0122E1DACBADB00A4FB95 /* WaveViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F6E0120C1DACBADA00A4FB95 /* WaveView */ = {
+			isa = PBXGroup;
+			children = (
+				F6E012101DACBADA00A4FB95 /* AppDelegate.h */,
+				F6E012111DACBADA00A4FB95 /* AppDelegate.m */,
+				F6E012161DACBADA00A4FB95 /* Main.storyboard */,
+				F6E012191DACBADA00A4FB95 /* Assets.xcassets */,
+				F6E0121B1DACBADA00A4FB95 /* LaunchScreen.storyboard */,
+				F6E0121E1DACBADA00A4FB95 /* Info.plist */,
+				F6E0120D1DACBADA00A4FB95 /* Supporting Files */,
+				F6E012401DACBBCD00A4FB95 /* FirstviewController.h */,
+				F6E012411DACBBCD00A4FB95 /* FirstviewController.m */,
+				F6E012431DACBBEC00A4FB95 /* SecondviewController.h */,
+				F6E012441DACBBEC00A4FB95 /* SecondviewController.m */,
+				F6E012461DACBC9F00A4FB95 /* UIColor+Hex.h */,
+				F6E012471DACBC9F00A4FB95 /* UIColor+Hex.m */,
+				F6E012491DACBD2500A4FB95 /* MyPrefixHeader.pch */,
+			);
+			path = WaveView;
+			sourceTree = "<group>";
+		};
+		F6E0120D1DACBADA00A4FB95 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F6E0120E1DACBADA00A4FB95 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F6E012261DACBADB00A4FB95 /* WaveViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				F6E012271DACBADB00A4FB95 /* WaveViewTests.m */,
+				F6E012291DACBADB00A4FB95 /* Info.plist */,
+			);
+			path = WaveViewTests;
+			sourceTree = "<group>";
+		};
+		F6E012311DACBADB00A4FB95 /* WaveViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F6E012321DACBADB00A4FB95 /* WaveViewUITests.m */,
+				F6E012341DACBADB00A4FB95 /* Info.plist */,
+			);
+			path = WaveViewUITests;
+			sourceTree = "<group>";
+		};
+		F6E0124A1DACC6C400A4FB95 /* WaveViewTools */ = {
+			isa = PBXGroup;
+			children = (
+				F6E0124B1DACC6C400A4FB95 /* WaveView */,
+			);
+			path = WaveViewTools;
+			sourceTree = "<group>";
+		};
+		F6E0124B1DACC6C400A4FB95 /* WaveView */ = {
+			isa = PBXGroup;
+			children = (
+				F6E0124C1DACC6C400A4FB95 /* DEFINE.h */,
+				F6E0124D1DACC6C400A4FB95 /* UIView+YZTCView.h */,
+				F6E0124E1DACC6C400A4FB95 /* UIView+YZTCView.m */,
+				F6E0124F1DACC6C400A4FB95 /* WavaRotorView.h */,
+				F6E012501DACC6C400A4FB95 /* WavaRotorView.m */,
+				F6E012511DACC6C400A4FB95 /* WaveAnimationView.h */,
+				F6E012521DACC6C400A4FB95 /* WaveAnimationView.m */,
+				F6E012531DACC6C400A4FB95 /* WaveView.h */,
+				F6E012541DACC6C400A4FB95 /* WaveView.m */,
+			);
+			path = WaveView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F6E012091DACBADA00A4FB95 /* WaveView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F6E012371DACBADB00A4FB95 /* Build configuration list for PBXNativeTarget "WaveView" */;
+			buildPhases = (
+				98FD923FF7B6EF552A8C0D97 /* [CP] Check Pods Manifest.lock */,
+				F6E012061DACBADA00A4FB95 /* Sources */,
+				F6E012071DACBADA00A4FB95 /* Frameworks */,
+				F6E012081DACBADA00A4FB95 /* Resources */,
+				C875B07F0291B7B577749808 /* [CP] Embed Pods Frameworks */,
+				08CCF05A674FF28A15EB789D /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WaveView;
+			productName = WaveView;
+			productReference = F6E0120A1DACBADA00A4FB95 /* WaveView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F6E012221DACBADB00A4FB95 /* WaveViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F6E0123A1DACBADB00A4FB95 /* Build configuration list for PBXNativeTarget "WaveViewTests" */;
+			buildPhases = (
+				F6E0121F1DACBADB00A4FB95 /* Sources */,
+				F6E012201DACBADB00A4FB95 /* Frameworks */,
+				F6E012211DACBADB00A4FB95 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F6E012251DACBADB00A4FB95 /* PBXTargetDependency */,
+			);
+			name = WaveViewTests;
+			productName = WaveViewTests;
+			productReference = F6E012231DACBADB00A4FB95 /* WaveViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F6E0122D1DACBADB00A4FB95 /* WaveViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F6E0123D1DACBADB00A4FB95 /* Build configuration list for PBXNativeTarget "WaveViewUITests" */;
+			buildPhases = (
+				F6E0122A1DACBADB00A4FB95 /* Sources */,
+				F6E0122B1DACBADB00A4FB95 /* Frameworks */,
+				F6E0122C1DACBADB00A4FB95 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F6E012301DACBADB00A4FB95 /* PBXTargetDependency */,
+			);
+			name = WaveViewUITests;
+			productName = WaveViewUITests;
+			productReference = F6E0122E1DACBADB00A4FB95 /* WaveViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F6E012021DACBADA00A4FB95 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = renrenlab;
+				TargetAttributes = {
+					F6E012091DACBADA00A4FB95 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					F6E012221DACBADB00A4FB95 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = F6E012091DACBADA00A4FB95;
+					};
+					F6E0122D1DACBADB00A4FB95 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = F6E012091DACBADA00A4FB95;
+					};
+				};
+			};
+			buildConfigurationList = F6E012051DACBADA00A4FB95 /* Build configuration list for PBXProject "WaveView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F6E012011DACBADA00A4FB95;
+			productRefGroup = F6E0120B1DACBADA00A4FB95 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F6E012091DACBADA00A4FB95 /* WaveView */,
+				F6E012221DACBADB00A4FB95 /* WaveViewTests */,
+				F6E0122D1DACBADB00A4FB95 /* WaveViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F6E012081DACBADA00A4FB95 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6E0121D1DACBADA00A4FB95 /* LaunchScreen.storyboard in Resources */,
+				F6E0121A1DACBADA00A4FB95 /* Assets.xcassets in Resources */,
+				F6E012181DACBADA00A4FB95 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6E012211DACBADB00A4FB95 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6E0122C1DACBADB00A4FB95 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		08CCF05A674FF28A15EB789D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WaveView/Pods-WaveView-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		98FD923FF7B6EF552A8C0D97 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C875B07F0291B7B577749808 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WaveView/Pods-WaveView-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F6E012061DACBADA00A4FB95 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6E012481DACBC9F00A4FB95 /* UIColor+Hex.m in Sources */,
+				F6E012551DACC6C400A4FB95 /* UIView+YZTCView.m in Sources */,
+				F6E012561DACC6C400A4FB95 /* WavaRotorView.m in Sources */,
+				F6E012121DACBADA00A4FB95 /* AppDelegate.m in Sources */,
+				F6E012571DACC6C400A4FB95 /* WaveAnimationView.m in Sources */,
+				F6E0120F1DACBADA00A4FB95 /* main.m in Sources */,
+				F6E012451DACBBEC00A4FB95 /* SecondviewController.m in Sources */,
+				F6E012421DACBBCD00A4FB95 /* FirstviewController.m in Sources */,
+				F6E012581DACC6C400A4FB95 /* WaveView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6E0121F1DACBADB00A4FB95 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6E012281DACBADB00A4FB95 /* WaveViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6E0122A1DACBADB00A4FB95 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6E012331DACBADB00A4FB95 /* WaveViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F6E012251DACBADB00A4FB95 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F6E012091DACBADA00A4FB95 /* WaveView */;
+			targetProxy = F6E012241DACBADB00A4FB95 /* PBXContainerItemProxy */;
+		};
+		F6E012301DACBADB00A4FB95 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F6E012091DACBADA00A4FB95 /* WaveView */;
+			targetProxy = F6E0122F1DACBADB00A4FB95 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F6E012161DACBADA00A4FB95 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F6E012171DACBADA00A4FB95 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F6E0121B1DACBADA00A4FB95 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F6E0121C1DACBADA00A4FB95 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F6E012351DACBADB00A4FB95 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F6E012361DACBADB00A4FB95 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F6E012381DACBADB00A4FB95 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D837F883B447AF4A7336C54D /* Pods-WaveView.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/WaveView/MyPrefixHeader.pch";
+				INFOPLIST_FILE = WaveView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.renrenlab.WaveView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "$(SRCROOT)/**";
+			};
+			name = Debug;
+		};
+		F6E012391DACBADB00A4FB95 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D0B3EC1C7B9F39D70F27075B /* Pods-WaveView.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/WaveView/MyPrefixHeader.pch";
+				INFOPLIST_FILE = WaveView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.renrenlab.WaveView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "$(SRCROOT)/**";
+			};
+			name = Release;
+		};
+		F6E0123B1DACBADB00A4FB95 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = WaveViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.renrenlab.WaveViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WaveView.app/WaveView";
+			};
+			name = Debug;
+		};
+		F6E0123C1DACBADB00A4FB95 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = WaveViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.renrenlab.WaveViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WaveView.app/WaveView";
+			};
+			name = Release;
+		};
+		F6E0123E1DACBADB00A4FB95 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = WaveViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.renrenlab.WaveViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = WaveView;
+			};
+			name = Debug;
+		};
+		F6E0123F1DACBADB00A4FB95 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = WaveViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.renrenlab.WaveViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = WaveView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F6E012051DACBADA00A4FB95 /* Build configuration list for PBXProject "WaveView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6E012351DACBADB00A4FB95 /* Debug */,
+				F6E012361DACBADB00A4FB95 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F6E012371DACBADB00A4FB95 /* Build configuration list for PBXNativeTarget "WaveView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6E012381DACBADB00A4FB95 /* Debug */,
+				F6E012391DACBADB00A4FB95 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F6E0123A1DACBADB00A4FB95 /* Build configuration list for PBXNativeTarget "WaveViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6E0123B1DACBADB00A4FB95 /* Debug */,
+				F6E0123C1DACBADB00A4FB95 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F6E0123D1DACBADB00A4FB95 /* Build configuration list for PBXNativeTarget "WaveViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6E0123E1DACBADB00A4FB95 /* Debug */,
+				F6E0123F1DACBADB00A4FB95 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F6E012021DACBADA00A4FB95 /* Project object */;
+}
